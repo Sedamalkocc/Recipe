@@ -1,3 +1,110 @@
 body{
-    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Crafty Girls', cursive;
+    background-color: rgb(186, 176, 196);
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+} 
+#explanation {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3d3d3d;
+}
+p b {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navbar stil tanımlamaları */
+.navbar {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Genel stil tanımlamaları */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Resim stil tanımlamaları */
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+/* İçerik stil tanımlamaları */
+#portion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#portion .material-icons {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#portion p {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+#portion b {
+    font-weight: bold;
+    color: #555;
+}
+
+#title{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+li{
+    font-weight: bold;
+    color: #3d3d3d;
+}
+/* Footer stil tanımlamaları */
+footer {
+    background-color: #3d3d3d; /* Footer arka plan rengi */
+    color: #fff; /* Metin rengi */
+    text-align: center; /* Metin hizalama */
+    padding: 10px; /* Padding ekleyerek içerik ile kenarlar arasına boşluk bırakma */
+}
+
+/* Metin stil tanımlamaları */
+footer p {
+    display: inline-block; /* Paragrafı yatayda hizalama */
+    margin: 0; /* Paragrafın kenar boşluğunu kaldırma */
+}
+
+/* İkon stil tanımlamaları */
+footer .material-icons {
+    font-size: 24px; /* İkon boyutu */
+    vertical-align: middle; /* İkonu dikeyde hizalama */
+}
+
+.underline{
+    text-decoration: underline;
 }
