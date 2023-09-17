@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar Start-->
-    <h2>Arap Dudağı</h2>
-    <p>Çikolata Şöleni ... Arap dudağı tatlısı, çikolata ile buluşan yoğun şerbeti ve yumuşak dokusuyla çikolata severler için eşsiz bir lezzet sunar. Orta Doğu mutfağının geleneksel tatlılarından biri olarak, tatlı krizlerine lezzetli bir çikolatalı alternatif sunar.</p>
-    <p>Tarif: <b>Seda MALKOÇ</b></p>
-    <!-- Navbar End-->
+    <div class="container">
+        <!-- Navbar Start-->
+        <h2>Arap Dudağı</h2>
+        <p id="explanation">Çikolata Şöleni ... Arap dudağı tatlısı, çikolata ile buluşan yoğun şerbeti ve yumuşak dokusuyla çikolata severler için eşsiz bir lezzet sunar. Orta Doğu mutfağının geleneksel tatlılarından biri olarak, tatlı krizlerine lezzetli bir çikolatalı alternatif sunar.</p>
+        <p>Tarif: <b>Seda MALKOÇ</b></p>
+        <!-- Navbar End-->
+    </div>
 
     <!-- Section Start-->
     <section>
@@ -27,7 +29,7 @@
             <p style="display: inline-block;">Pişme Süresi : <b> 25 Dakika</b></p>
         </div>
 
-        <article id="ingredient">
+        <article>
             <p id="title">Kek için;</p>
             <ul>
                 <li>3 yumurta</li>
@@ -50,50 +52,50 @@
                 <li>50 gr sütlü çikolata</li>
             </ul>
         </article>
-        <article id="recipe">
+        <article>
             <p id="title">Arap Dudağı Tarifi</p>
             <ol>
-                <b><li>Kek hazırlığı:</b>
+                <b><li><span class="underline">Kek hazırlığı:</span></b>
                     <ul>
                     <li>Kekinizi pişirmeye başlamadan önce hazırlayın.</li>
                     <li>Not: Kekinizi piştiği gün değil, ertesi gün servis etmek daha lezzetli olacaktır.</li>
                 </ul>
             </li>
-                <b><li>Yumurta ve şeker karışımı:</b>
+                <b><li><span class="underline">Yumurta ve şeker karışımı:</span></b>
                     <ul>
                         <li>Yumurtaları ve şekeri bir mikserle iyice çırpın.</li>
                         <li>Ardından, tel çırpıcıyla karışımı devam ettirin.</li>
                     </ul>
                 </li>
-                <b><li>Süt ve yağ eklemesi:</b>
+                <b><li><span class="underline">Süt ve yağ eklemesi:</span></b>
                     <ul>
                         <li>Sütü ve yağı karışıma ekleyin.</li>
                     </ul>
                 </li>
-                <b><li>Kuru malzemelerin eklenmesi:</b>
+                <b><li><span class="underline">Kuru malzemelerin eklenmesi:</span></b>
                     <ul>
                         <li>Kuru malzemeleri (un, kakao, kabartma tozu vb.) bir kapta harmanlayın ve karışıma elemek suretiyle ekleyin.</li>
                     </ul>
                 </li>
-                <b><li>Kek hamurunun hazırlanması:</b>
+                <b><li><span class="underline">Kek hamurunun hazırlanması:</span></b>
                     <ul>
                         <li>Tereyağı ile iyice yağladığınız bir kek kalıbına karışımı dökün.</li>
                     </ul>
                 </li>
-                <b><li>Pişirme işlemi:</b>
+                <b><li><span class="underline">Pişirme işlemi:</span></b>
                     <ul>
                         <li>Fırını 180 dereceye ısıtın.</li>
                         <li>Hazırladığınız kek hamurunu 30 dakika boyunca pişirin. Pişirme süresi fırına ve kalıba göre değişebilir, bu yüzden kekin pişip pişmediğini ortasına kürdan batırarak veya süngerimsi bir yapı hissederek kontrol edin.</li>
                     </ul>
                 </li>
-                <b><li>Çikolata sosu hazırlığı:</b>
+                <b><li><span class="underline">Çikolata sosu hazırlığı:</span></b>
                     <ul>
                         <li>Kek pişerken, çikolata sosunu hazırlamak için tencereye tüm malzemeyi (çikolata ve tereyağı hariç) alın.</li>
                         <li>Malzemeler kaynayınca tencerenin altını kapatın.</li>
                         <li>İlk sıcağı geçtikten sonra içine tereyağı ve çikolatayı ekleyerek eritin.</li>
                     </ul>
                 </li>
-                <b><li>Sunum:</b>
+                <b><li><span class="underline">Sunum:</span></b>
                     <ul>
                         <li>Kek piştikten sonra dilimleyin.</li>
                         <li>Üzerine hazırladığınız çikolata sosunu bolca dökün. Unutmayın, sosun tamamı keke nüfuz edecektir. </li>
@@ -104,8 +106,9 @@
     </section>
     <!-- Section End-->
     <!-- Footer Start-->
-    <p  style="display: inline-block;">Afiyet Olsun </p>
+    <footer><p style="display: inline-block;">Afiyet Olsun </p>
     <span class="material-icons">emoji_emotions</span>
+    </footer>
     <!-- Footer End-->
 </body>
 </html>
